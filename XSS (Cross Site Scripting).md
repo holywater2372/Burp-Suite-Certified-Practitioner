@@ -1,11 +1,9 @@
-
 # What is XSS
 -  XSS occurs when user inputted data in insecurely included in the HTTP response by the Web Server.
 - There are different types of XSS namely, reflected XSS, stored XSS and DOM based XSS.
 
 # What is XSS context
 The XSS context is text between HTML tags, you need to introduce some new HTML tags designed to trigger execution of JavaScript.
-
 # Cross-site scripting contexts
 When testing for [reflected](https://portswigger.net/web-security/cross-site-scripting/reflected) and [stored](https://portswigger.net/web-security/cross-site-scripting/stored) XSS, a key task is to identify the XSS context:
 - The location within the response where attacker-controllable data appears.
@@ -36,7 +34,6 @@ When testing for [reflected](https://portswigger.net/web-security/cross-site-sc
 ```js
 document.cookie = "TopSecret=UnsecureCookieValue4Peanut2019";
 ```
-
 ### Identify allowed Tags
 
 > Basic XSS Payloads to _**identify**_ application security filter controls for handling data received in HTTP request.
@@ -117,9 +114,7 @@ https://TARGET.net/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin%3Ddocume
 ```
 
 [![XSS protocol location](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/raw/main/images/xss-protocol-location.png)](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/blob/main/images/xss-protocol-location.png)
-
 [PortSwigger Lab: Reflected XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-
 ### Custom Tags not Blocked
 
 > Application respond with message _**"Tag is not allowed"**_ when attempting to insert XSS payloads, but if we create a custom tag it is bypassed.
@@ -149,7 +144,6 @@ location = 'https://TARGET.net/?search=%3Cxss+id%3Dx+onfocus%3Ddocument.location
 [PortSwigger Lab: Reflected XSS into HTML context with all tags blocked except custom ones](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-all-standard-tags-blocked)
 
 [z3nsh3ll - explaining custom tags for XSS attacks](https://youtu.be/sjs6RS7lURk)
-
 ### OnHashChange
 
 > Below iframe uses **HASH** `#` character at end of the URL to trigger the **OnHashChange** XSS cookie stealer.
@@ -173,7 +167,6 @@ location = 'https://TARGET.net/?search=%3Cxss+id%3Dx+onfocus%3Ddocument.location
 [PortSwigger Lab: DOM XSS in jQuery selector sink using a hashchange event](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-selector-hash-change-event)
 
 [Crypto-Cat: DOM XSS in jQuery selector sink using a hashchange event](https://github.com/Crypto-Cat/CTF/blob/main/web/WebSecurityAcademy/xss/dom_xss_jquery_hashchange/writeup.md)
-
 ### Reflected String XSS
 
 > Submitting a search string and reviewing the `source code` of the search result page, the JavaScript string variable is _**identified**_ to reflect the search string `tracker.gif` in the `source code` with a variable named `searchTerms`.
@@ -196,7 +189,6 @@ location = 'https://TARGET.net/?search=%3Cxss+id%3Dx+onfocus%3Ddocument.location
 ```
 
 [![JavaScript string with single quote and backslash escaped](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/raw/main/images/javascript-string-reflection.png)](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/blob/main/images/javascript-string-reflection.png)
-
 > Using a payload `test'payload` and observe that a single quote gets backslash-escaped, preventing breaking out of the string.
 
 ```js
@@ -253,4 +245,3 @@ fuzzer\';alert(`Testing The backtick a typographical mark used mainly in computi
 
 [![fail-escape](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/raw/main/images/fail-escape.png)](https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/blob/main/images/fail-escape.png)
 [PortSwigger Lab: Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-double-quotes-encoded-single-quotes-escaped)
-

