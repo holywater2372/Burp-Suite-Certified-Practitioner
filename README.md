@@ -1,4 +1,4 @@
-# BSCP Notes
+# PortSwigger's BSCP Notes
 
 These are some notes I created while going through PortSwigger's Burp Suite Certified Practitioner (BSCP) material using Obsidian.
 
