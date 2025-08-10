@@ -33,11 +33,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "GraphQL API.md": "LiGrid3x3",
-  "Business Logic vulnerabilities.md": "💡",
-  "Access Controls.md": "LiAccessibility",
-  "SQL Injection.md": "LiDatabase",
-  "XSS (Cross-site scripting).md": "❌",
-  "Path Traversal.md": "LiParentheses"
+  }
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Cache poisoning.md",
+                "file": "Mystery Labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Cache poisoning"
+              "title": "Mystery Labs"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Cache poisoning.md",
+                "file": "Mystery Labs.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Web Cache poisoning"
+              "title": "Outline of Mystery Labs"
             }
           },
           {
@@ -180,11 +180,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be4f1763b201f291",
+  "active": "a90ff1ec17215cc4",
   "lastOpenFiles": [
+    "Insecure Deserialization.md",
+    "CSRF (Cross-Site Request Forgery).md",
+    "Business Logic vulnerabilities.md",
+    "Authentication.md",
+    "Cross-origin resource sharing (CORS).md",
+    "Access Controls.md",
     "XSS (Cross-site scripting).md",
-    "SSRF (Server-Side Request Forgery).md",
+    "XXE Injection.md",
+    "Mystery Labs.md",
+    "JWT Attacks.md",
+    "HTTP Request Smuggling.md",
+    "HTTP Host Header Attacks.md",
+    "DOM-based Vulnerabilities.md",
+    "GraphQL API.md",
+    "File Upload vulnerabilities.md",
+    "Command Injection.md",
+    "API Testing.md",
+    "Web Cache poisoning.md",
     "SSTI (Server-Side Template Injection).md",
+    "SSRF (Server-Side Request Forgery).md",
+    "SQL Injection.md",
+    "Prototype Pollution.md",
+    "OAuth.md",
+    "NoSQL Injection.md",
+    "Path Traversal.md",
     "assets/Insecure Deserialization/file-20250517204556827.png",
     "assets/Insecure Deserialization/file-20250517194645952.png",
     "assets/Insecure Deserialization/file-20250517193949573.png",
@@ -195,28 +217,6 @@
     "assets/DOM-based Vulnerabilities/file-20250803162257857.png",
     "assets/DOM-based Vulnerabilities/file-20250803161256007.png",
     "assets/DOM-based Vulnerabilities/file-20250803160631658.png",
-    "XXE Injection.md",
-    "Web Cache poisoning.md",
-    "SQL Injection.md",
-    "Prototype Pollution.md",
-    "Path Traversal.md",
-    "OAuth.md",
-    "NoSQL Injection.md",
-    "Mystery Labs.md",
-    "JWT Attacks.md",
-    "Insecure Deserialization.md",
-    "HTTP Request Smuggling.md",
-    "HTTP Host Header Attacks.md",
-    "GraphQL API.md",
-    "File Upload vulnerabilities.md",
-    "DOM-based Vulnerabilities.md",
-    "CSRF (Cross-Site Request Forgery).md",
-    "Cross-origin resource sharing (CORS).md",
-    "Command Injection.md",
-    "Business Logic vulnerabilities.md",
-    "Authentication.md",
-    "API Testing.md",
-    "Access Controls.md",
     "assets/Authentication",
     "assets/Mystery Labs",
     "assets/DOM-based Vulnerabilities",
