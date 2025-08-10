@@ -4,8 +4,8 @@ These are some notes I created while going through PortSwigger's Burp Suite Cert
 
 ## Screenshots & Diagrams
 
-Images and screenshots are included in the `assets/` folder and referenced using standard Markdown syntax for GitHub compatibility.
-> Originally formatted for Obsidian with `![[image.png]]` embeds
+Images and screenshots are included in the `assets/` folder and referenced using Obsidian's [Link Embed](https://github.com/Seraphli/obsidian-link-embed) plugin.
+> Originally formatted for Obsidian with `![[image.png]]` embeds.
 
 ## How to Use
 
