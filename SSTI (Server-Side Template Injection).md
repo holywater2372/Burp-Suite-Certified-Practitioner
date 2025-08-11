@@ -3,7 +3,7 @@ Server-side template injection is when an attacker is able to use native templat
 
 Websites use templates such as [FreeMarker](https://freemarker.apache.org/) to embed dynamic content in web pages. In the below code we can notice that the `name` parameter of the user's request directly being passed into the template using the `render` function.
 
-```python
+```python fold
 from flask import Flask, request, render_template_string
 # Creates a new Flask application instance
 app = Flask(__name__)
@@ -22,7 +22,6 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-
 Check the `name` parameter and how the `flask renders templates` in the data:
 ![[file-20250507201809139.png]]
 ![[file-20250507201744011.png]]

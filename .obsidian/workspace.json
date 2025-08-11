@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mystery Labs.md",
+                "file": "SSTI (Server-Side Template Injection).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mystery Labs"
+              "title": "SSTI (Server-Side Template Injection)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mystery Labs.md",
+                "file": "SSTI (Server-Side Template Injection).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mystery Labs"
+              "title": "Outline of SSTI (Server-Side Template Injection)"
             }
           },
           {
@@ -182,21 +182,21 @@
   },
   "active": "a90ff1ec17215cc4",
   "lastOpenFiles": [
-    "SSRF (Server-Side Request Forgery).md",
+    "Web Cache poisoning.md",
+    "SSTI (Server-Side Template Injection).md",
     "XXE Injection.md",
+    "Prototype Pollution.md",
     "XSS (Cross Site Scripting).md",
+    "README.md",
+    "Mystery Labs.md",
+    "SSRF (Server-Side Request Forgery).md",
     "Cross-origin resource sharing (CORS).md",
     "Access Controls.md",
     "Authentication.md",
     "HTTP Host Header Attacks.md",
     "CSRF (Cross-Site Request Forgery).md",
-    "Web Cache poisoning.md",
-    "SSTI (Server-Side Template Injection).md",
     "SQL Injection.md",
-    "Prototype Pollution.md",
-    "Mystery Labs.md",
     "DOM-based Vulnerabilities.md",
-    "README.md",
     "Insecure Deserialization.md",
     "Business Logic vulnerabilities.md",
     "Path Traversal.md",
